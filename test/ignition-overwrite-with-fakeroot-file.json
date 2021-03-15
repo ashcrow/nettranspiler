@@ -1,0 +1,17 @@
+{
+  "ignition": { "version": "2.3.0" },
+  "storage": {
+    "files": [{
+      "path": "/foo/bar",
+      "filesystem": "root",
+      "mode": 420,
+      "contents": { "source": "data:,example%20file%0A" }
+    },
+    {
+      "path": "/etc/resolve.conf",
+      "filesystem": "root",
+      "mode": 420,
+      "contents": { "source": "data:,dontuseme%20file%0A" }
+    }]
+  }
+}
